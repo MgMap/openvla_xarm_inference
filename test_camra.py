@@ -5,7 +5,6 @@ def check_all_cameras():
     """Check which camera indices are available."""
     print("Checking available cameras...")
     available_cameras = []
-    
     # Test camera indices 0-10
     for i in range(21):
         cap = cv2.VideoCapture(i)
